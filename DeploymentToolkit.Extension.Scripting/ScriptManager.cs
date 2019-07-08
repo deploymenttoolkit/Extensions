@@ -76,7 +76,7 @@ namespace DeploymentToolkit.Extension.Scripts
                         powershellInstance.AddScript(scriptText);
                         powershellInstance.Invoke();
                     }
-
+                    _logger.Info("Successfully invoked PowerShell script")
                     return true;
                 }
                 catch (Exception ex)
