@@ -78,11 +78,11 @@ namespace DeploymentToolkit.Extension.INI
         private static bool SetData(IniData iniFile, string section, string key, string data)
         {
             if (!iniFile.Sections.ContainsSection(section))
-                return false;
+                iniFile.Sections.AddSection(section);
             if (!iniFile[section].ContainsKey(key))
-                return false;
-
-            iniFile[section][key] = data;
+                iniFile[section].AddKey(key, data);
+            else
+                iniFile[section][key] = data;
             return true;
         }
     }
