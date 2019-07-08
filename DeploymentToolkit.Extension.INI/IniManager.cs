@@ -25,11 +25,13 @@ namespace DeploymentToolkit.Extension.INI
 
                 if (!File.Exists(path))
                 {
+                    _logger.Trace($"New ini created");
                     return new IniData();
                 }
 
                 var iniFile = _parser.ReadFile(path);
                 _iniCache.Add(path, iniFile);
+                _logger.Trace($"Successfully read from '{path}'");
                 return iniFile;
             }
             catch (Exception ex)
@@ -47,6 +49,7 @@ namespace DeploymentToolkit.Extension.INI
                     File.Delete(path);
 
                 _parser.WriteFile(path, iniFile);
+                _logger.Trace($"Successfully saved to {path}");
                 return true;
             }
             catch (Exception ex)
@@ -58,6 +61,7 @@ namespace DeploymentToolkit.Extension.INI
 
         internal static bool SetData(string path, string section, string key, string data)
         {
+            _logger.Trace($"SetData({path}, {section}, {key}, {data})");
             if (string.IsNullOrEmpty(path))
                 return false;
             if (string.IsNullOrEmpty(section))
