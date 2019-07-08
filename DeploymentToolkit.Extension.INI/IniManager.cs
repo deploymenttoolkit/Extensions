@@ -8,11 +8,11 @@ namespace DeploymentToolkit.Extension.INI
 {
     internal static class IniManager
     {
-        private static NLog.Logger _logger = NLog.LogManager.GetCurrentClassLogger();
+        private static readonly NLog.Logger _logger = NLog.LogManager.GetCurrentClassLogger();
 
-        private static FileIniDataParser _parser = new FileIniDataParser();
+        private static readonly FileIniDataParser _parser = new FileIniDataParser();
 
-        private static Dictionary<string, IniData> _iniCache = new Dictionary<string, IniData>();
+        private static readonly Dictionary<string, IniData> _iniCache = new Dictionary<string, IniData>();
 
         private static IniData GetIniFile(string path)
         {
