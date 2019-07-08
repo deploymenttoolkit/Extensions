@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeploymentToolkit.Extension.INI", "DeploymentToolkit.Extension.INI\DeploymentToolkit.Extension.INI.csproj", "{8F3A0480-6F51-47ED-B2F2-80700E37FD6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F3A0480-6F51-47ED-B2F2-80700E37FD6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F3A0480-6F51-47ED-B2F2-80700E37FD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3A0480-6F51-47ED-B2F2-80700E37FD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F3A0480-6F51-47ED-B2F2-80700E37FD6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {505F204F-5FD8-4CAC-99DF-86C1DF819DD4}
+	EndGlobalSection
+EndGlobal
