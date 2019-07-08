@@ -7,8 +7,8 @@
     <ProjectGuid>{E9995715-8F2E-4B0B-8530-DC601B2D93F3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DeploymentToolkit.Extension.Scripting</RootNamespace>
-    <AssemblyName>DeploymentToolkit.Extension.Scripting</AssemblyName>
+    <RootNamespace>DeploymentToolkit.Extension.Scripts</RootNamespace>
+    <AssemblyName>DeploymentToolkit.Extension.Scripts</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

@@ -1,7 +1,7 @@
-﻿using DeploymentToolkit.Extension.Scripting.Modals;
+﻿using DeploymentToolkit.Extension.Scripts.Modals;
 using DeploymentToolkit.Modals.Actions;
 
-namespace DeploymentToolkit.Extension.Scripting.Actions
+namespace DeploymentToolkit.Extension.Scripts.Actions
 {
     public class ScriptExecute : IExecutableAction
     {

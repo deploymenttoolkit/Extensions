@@ -1,4 +1,4 @@
-﻿namespace DeploymentToolkit.Extension.Scripting.Modals
+﻿namespace DeploymentToolkit.Extension.Scripts.Modals
 {
     public enum ScriptType
     {

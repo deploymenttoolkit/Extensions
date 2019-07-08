@@ -1,11 +1,11 @@
-﻿using DeploymentToolkit.Extension.Scripting.Actions;
-using DeploymentToolkit.Extension.Scripting.Modals;
+﻿using DeploymentToolkit.Extension.Scripts.Actions;
+using DeploymentToolkit.Extension.Scripts.Modals;
 using System;
 using System.Diagnostics;
 using System.IO;
 using System.Management.Automation;
 
-namespace DeploymentToolkit.Extension.Scripting
+namespace DeploymentToolkit.Extension.Scripts
 {
     internal static class ScriptManager
     {
